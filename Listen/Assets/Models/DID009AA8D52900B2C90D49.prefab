@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4488364964231633836}
   - component: {fileID: 5336987683845923767}
   - component: {fileID: 8914618696062150415}
+  - component: {fileID: 2219183097597428160}
   m_Layer: 0
   m_Name: Level_1_DownToBlock-00-00_Ceiling
   m_TagString: Untagged
@@ -78,6 +79,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2219183097597428160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18055779964420295}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.666, y: 4.026001, z: 0.25000006}
+  m_Center: {x: -2.833, y: 2.0129995, z: 0.12500098}
 --- !u!1 &21019743731543701
 GameObject:
   m_ObjectHideFlags: 0
@@ -8110,6 +8124,7 @@ GameObject:
   - component: {fileID: 2634378251511453306}
   - component: {fileID: 8185457944872108988}
   - component: {fileID: 5470371701288708699}
+  - component: {fileID: 1003971647600223119}
   m_Layer: 0
   m_Name: Level_0_OutsideBlock-00-00_W2
   m_TagString: Untagged
@@ -8177,6 +8192,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1003971647600223119
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737462782807125782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.715001, y: 0.15000004, z: 3.0000007}
+  m_Center: {x: -1.3574991, y: -0.07500014, z: 1.5000004}
 --- !u!1 &740579347357885248
 GameObject:
   m_ObjectHideFlags: 0
@@ -8621,6 +8649,7 @@ GameObject:
   - component: {fileID: 5963909364168385584}
   - component: {fileID: 2238102916004092216}
   - component: {fileID: 8769358551391560256}
+  - component: {fileID: 4859141935206972874}
   m_Layer: 0
   m_Name: Level_0_OutsideBlock-00-00_W5
   m_TagString: Untagged
@@ -8688,6 +8717,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4859141935206972874
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785045617073323486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 2191876273306205753, guid: 51d64732c1f23ee4cbf81d9e5650adff, type: 3}
 --- !u!1 &787359789534874061
 GameObject:
   m_ObjectHideFlags: 0
@@ -21015,6 +21058,7 @@ GameObject:
   - component: {fileID: 8656930578307480320}
   - component: {fileID: 8013826048909781771}
   - component: {fileID: 1373532242472861969}
+  - component: {fileID: 9217026481670304504}
   m_Layer: 0
   m_Name: Level_0_Foyer_Ceiling
   m_TagString: Untagged
@@ -21082,6 +21126,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &9217026481670304504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039581031732629146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.624, y: 3.0400007, z: 0.25000006}
+  m_Center: {x: -2.812, y: 1.5200005, z: 0.1250005}
 --- !u!1 &2040821624650066504
 GameObject:
   m_ObjectHideFlags: 0
@@ -30762,6 +30819,7 @@ GameObject:
   - component: {fileID: 6594071598415398959}
   - component: {fileID: 4007546267641083613}
   - component: {fileID: 3731922406285982830}
+  - component: {fileID: 5845051485989331762}
   m_Layer: 0
   m_Name: Level_1_Bedroom Corridor_Ceiling
   m_TagString: Untagged
@@ -30829,6 +30887,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &5845051485989331762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062184478394338662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.719, y: 2.6180007, z: 0.25000006}
+  m_Center: {x: -2.3595, y: 1.3090023, z: 0.12500098}
 --- !u!1 &3063516040929211305
 GameObject:
   m_ObjectHideFlags: 0
@@ -31070,6 +31141,7 @@ GameObject:
   - component: {fileID: 2203639069332642865}
   - component: {fileID: 7528451878404721447}
   - component: {fileID: 1590175760124312263}
+  - component: {fileID: 6986991069362060964}
   m_Layer: 0
   m_Name: 'Level_1_Secondary Bedroom #2_Ceiling'
   m_TagString: Untagged
@@ -31137,6 +31209,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6986991069362060964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3086170584868712892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.616, y: 4.689001, z: 0.25000006}
+  m_Center: {x: -1.808, y: 2.3445024, z: 0.12500098}
 --- !u!1 &3088550239794701441
 GameObject:
   m_ObjectHideFlags: 0
@@ -34063,6 +34148,7 @@ GameObject:
   - component: {fileID: 765165062700959369}
   - component: {fileID: 5948356219021641933}
   - component: {fileID: 4812127417808708966}
+  - component: {fileID: 1537863757724629832}
   m_Layer: 0
   m_Name: Level_0_Living-Dining Room_Ceiling
   m_TagString: Untagged
@@ -34132,6 +34218,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1537863757724629832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3349214671597164900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.763, y: 12.539002, z: 0.25000006}
+  m_Center: {x: -2.8815, y: 6.2695003, z: 0.1250005}
 --- !u!1 &3353726736226829082
 GameObject:
   m_ObjectHideFlags: 0
@@ -43622,6 +43721,7 @@ GameObject:
   - component: {fileID: 32141720150895911}
   - component: {fileID: 8710140653194629583}
   - component: {fileID: 485584843547093193}
+  - component: {fileID: 1400378946850530236}
   m_Layer: 0
   m_Name: Level_0_Living-Dining Room_W3
   m_TagString: Untagged
@@ -43689,6 +43789,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1400378946850530236
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4338342367804222411}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2800006, y: 0.15000004, z: 2.5000005}
+  m_Center: {x: -0.64000076, y: 0.07500002, z: 1.2500002}
 --- !u!1 &4342997417865405796
 GameObject:
   m_ObjectHideFlags: 0
@@ -46666,6 +46779,7 @@ GameObject:
   - component: {fileID: 4424567332200558914}
   - component: {fileID: 6636551557620627113}
   - component: {fileID: 657854815583834865}
+  - component: {fileID: 458400795035811749}
   m_Layer: 0
   m_Name: Level_0_Living-Dining Room_W2
   m_TagString: Untagged
@@ -46733,6 +46847,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &458400795035811749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4697345836359771471}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4190001, y: 0.15000004, z: 2.5000005}
+  m_Center: {x: -1.0595, y: 0.07500026, z: 1.2500002}
 --- !u!1 &4697987523967214739
 GameObject:
   m_ObjectHideFlags: 0
@@ -47522,6 +47649,7 @@ GameObject:
   - component: {fileID: 2938525552684451821}
   - component: {fileID: 2591770648637854661}
   - component: {fileID: 6441598047048613608}
+  - component: {fileID: 6893265388180125785}
   m_Layer: 0
   m_Name: Level_0_OutsideBlock-00-00_W4
   m_TagString: Untagged
@@ -47589,6 +47717,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6893265388180125785
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4771524875322477467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.9160028, y: 0.15000004, z: 3.0000007}
+  m_Center: {x: -2.9580011, y: -0.07499978, z: 1.5000004}
 --- !u!1 &4778710404818237953
 GameObject:
   m_ObjectHideFlags: 0
@@ -57368,6 +57509,7 @@ GameObject:
   - component: {fileID: 1607025297893352157}
   - component: {fileID: 216100481058740003}
   - component: {fileID: 7444779233612461400}
+  - component: {fileID: 6375566573934494831}
   m_Layer: 0
   m_Name: Level_0_Living-Dining Room_W0
   m_TagString: Untagged
@@ -57435,6 +57577,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6375566573934494831
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5669505925268876002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3, y: 0.15000004, z: 2.5000005}
+  m_Center: {x: -0.65, y: 0.074999064, z: 1.2500002}
 --- !u!1 &5669530934315285669
 GameObject:
   m_ObjectHideFlags: 0
@@ -79306,6 +79461,7 @@ GameObject:
   - component: {fileID: 6955048201609124631}
   - component: {fileID: 2670521174922904789}
   - component: {fileID: 868775028566281594}
+  - component: {fileID: 9098884855527707447}
   m_Layer: 0
   m_Name: Level_1_Stairs Corridor_Ceiling
   m_TagString: Untagged
@@ -79373,6 +79529,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &9098884855527707447
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7690011886393717992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.691, y: 7.203002, z: 0.25000006}
+  m_Center: {x: -0.8455, y: 3.601501, z: 0.12500098}
 --- !u!1 &7697066020363901342
 GameObject:
   m_ObjectHideFlags: 0
@@ -84073,6 +84242,7 @@ GameObject:
   - component: {fileID: 4740793552355140335}
   - component: {fileID: 3041939456614061571}
   - component: {fileID: 2614922335703316042}
+  - component: {fileID: 5386305913664413234}
   m_Layer: 0
   m_Name: Level_0_Living-Dining Room_W4
   m_TagString: Untagged
@@ -84140,6 +84310,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &5386305913664413234
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083145642485477462}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.342, y: 0.15000004, z: 2.5000005}
+  m_Center: {x: -1.0209999, y: 0.075000495, z: 1.2500002}
 --- !u!1 &8085496711212389242
 GameObject:
   m_ObjectHideFlags: 0
@@ -87353,6 +87536,7 @@ GameObject:
   - component: {fileID: 5522367097071504706}
   - component: {fileID: 7878972869606132931}
   - component: {fileID: 6511890051694894464}
+  - component: {fileID: 9108834675006219654}
   m_Layer: 0
   m_Name: 'Level_1_Secondary Bedroom #3_Ceiling'
   m_TagString: Untagged
@@ -87420,6 +87604,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &9108834675006219654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8392239286950692355}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.933, y: 7.203002, z: 0.25000006}
+  m_Center: {x: -1.9665, y: 3.601501, z: 0.12500098}
 --- !u!1 &8393253133759837476
 GameObject:
   m_ObjectHideFlags: 0

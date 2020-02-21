@@ -77,7 +77,6 @@ public class SonarFx : MonoBehaviour
     int addColorID;
 
     int timeID;
-
     float time;
     void Awake()
     {
@@ -101,15 +100,17 @@ public class SonarFx : MonoBehaviour
     }
 
     bool start = false;
+    public GameObject EchoHit;
     void Update()
     {
         //make origin at echolocation point
         if(Input.GetMouseButtonDown(1))
         {
-            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Echo", this.gameObject);
          RaycastHit hitInfo = new RaycastHit();
          Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hitInfo, 100f);
-         _origin = new Vector3(hitInfo.point.x, hitInfo.point.y, hitInfo.point.z);      
+         _origin = new Vector3(hitInfo.point.x, hitInfo.point.y, hitInfo.point.z);     
+         EchoHit.transform.localPosition = new Vector3(hitInfo.point.x, hitInfo.point.y, hitInfo.point.z); 
+         FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Echo", EchoHit);
          start = true;
          time = 0;
          _waveInterval = 20;
