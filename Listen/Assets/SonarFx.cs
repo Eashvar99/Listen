@@ -25,6 +25,10 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class SonarFx : MonoBehaviour
 {
+    
+    RaycastHit hitInfo = new RaycastHit();
+    private float SonarTimer = 0.0f;
+    private bool doSonar = true;
     // Sonar mode (directional or spherical)
     public enum SonarMode { Directional, Spherical }
     [SerializeField] SonarMode _mode = SonarMode.Directional;
@@ -103,19 +107,31 @@ public class SonarFx : MonoBehaviour
     public GameObject EchoHit;
     void Update()
     {
-        //make origin at echolocation point
-        if(Input.GetMouseButtonDown(1))
+        if(SonarTimer >= 100.0f)
         {
-         RaycastHit hitInfo = new RaycastHit();
-         Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hitInfo, 100f);
-         _origin = new Vector3(hitInfo.point.x, hitInfo.point.y, hitInfo.point.z);     
-         EchoHit.transform.localPosition = new Vector3(hitInfo.point.x, hitInfo.point.y, hitInfo.point.z); 
-         FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Echo", EchoHit);
-         start = true;
-         time = 0;
-         _waveInterval = 20;
+            doSonar = true;
         }
-
+        if(doSonar == true)
+        {
+            if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hitInfo, 10f))
+            {
+                //make origin at echolocation point
+                if(Input.GetMouseButtonDown(1) && hitInfo.collider!= null)
+                {
+                SonarTimer = 0.0f;
+                doSonar = false;
+                
+                _origin = new Vector3(hitInfo.point.x, hitInfo.point.y, hitInfo.point.z);     
+                EchoHit.transform.localPosition = new Vector3(hitInfo.point.x, hitInfo.point.y, hitInfo.point.z); 
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Echo", EchoHit);
+                start = true;
+                time = 0;
+                _waveInterval = 20;
+                }
+            }
+        }
+            SonarTimer++;
+        
         if(time > 2f)
         {
             start = false;

@@ -64,7 +64,7 @@ Shader "Hidden/SonarFX"
 
             // Get modulo (w % params.z / params.z)
             w /= _SonarWaveParams.z;
-            w = w - floor(w);
+            w = w / floor(w);
 
             // Make the gradient steeper.
             float p = _SonarWaveParams.y;
